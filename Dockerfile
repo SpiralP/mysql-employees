@@ -1,4 +1,4 @@
-FROM mysql:8
+FROM mysql:5
 
 COPY *.dump /
 COPY show_elapsed.sql /
